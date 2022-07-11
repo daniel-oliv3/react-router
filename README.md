@@ -12,3 +12,8 @@
 ```
 npx create-react-app webapp-001
 ```
+
+**Roda o projeto React-js**
+```
+npm start
+```
