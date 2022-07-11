@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Services() {
+export default function Services() {
     return (
       <>
        <h1>Serviços</h1>
