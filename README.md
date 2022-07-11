@@ -6,3 +6,9 @@
 - Permite criar app com múltiplas páginas sem reload
 - Não vem incluido com o React. É necessário adicionar
 - Versões 5 e 6
+
+
+**Comandos para criação do projeto React-js**
+```
+npx create-react-app webapp-001
+```
