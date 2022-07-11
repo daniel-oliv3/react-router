@@ -8,6 +8,7 @@
 - Versões 5 e 6
 
 
+## Criação do Projeto React.
 **Comandos para criação do projeto React-js**
 ```
 npx create-react-app webapp-001
@@ -16,6 +17,12 @@ npx create-react-app webapp-001
 **Roda o projeto React-js**
 ```
 npm start
+```
+
+## React Router.
+**Adicionando o React Router**
+```
+npm install react-router-dom@6
 ```
 
 
