@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 //Componentes
 import Home from './Components/Home';
@@ -8,14 +8,15 @@ import Contacts from './Components/Contacts';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <>
      <h1>React Router App!</h1> 
      <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/services' element={<Services />} />
+        <Route caseSensitive={true} path='/services' element={<Services />} />
         <Route path='/contacts' element={<Contacts />} />
      </Routes>
-    </BrowserRouter>
+    </>
   );
 }
 
+ /*caseSensitive={true} o url tem que ser identico path='Services'*/
