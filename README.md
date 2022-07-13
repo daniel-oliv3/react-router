@@ -31,6 +31,8 @@ npm install react-router-dom@6
 ## 2 - BROWSERROUTER, ROUTES E ROUTE.
 - Ex: webapp-002
 
+## 3 - UTILIZAÇÃO DO COMPONENTE LINK.
+- Ex: webapp-003
 
 
 
