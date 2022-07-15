@@ -37,8 +37,17 @@ npm install react-router-dom@6
 ## 4 - ASPETO VISUAL DA APP COM BOOTSTRAP E PATH PARA ERRO.
 - Ex: webapp-004
 
+**React-Bootstrap**
+- Site - https://react-bootstrap.github.io/getting-started/introduction/
 
+```
+npm install react-bootstrap bootstrap
+```
 
+- Import bootstrap css
+```
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
 
 
 

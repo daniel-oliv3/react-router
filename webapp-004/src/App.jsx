@@ -1,6 +1,8 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 //Componentes
 import Home from './Components/Home';
 import Services from './Components/Services';
@@ -17,7 +19,7 @@ export default function App() {
      </nav> 
      <Routes>
         <Route path='/' element={<Home />} />
-        <Route caseSensitive={true} path='/services' element={<Services />} />
+        <Route path='/services' element={<Services />} />
         <Route path='/contacts' element={<Contacts />} />
      </Routes>
     </>
