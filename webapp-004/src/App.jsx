@@ -12,10 +12,14 @@ export default function App() {
   return (
     <>
      <h1>React Router App!</h1>
-     <nav>
-        <Link to="/">Home</Link> |
-        <Link to="/services">Serviços</Link> |
-        <Link to="/contacts">Contatos</Link>
+     <nav className="container">
+      <div className="row">
+        <div className="col">
+          <Link className="btn btn-primary me-3" to="/">Home</Link> 
+          <Link className="btn btn-primary me-3" to="/services">Serviços</Link> 
+          <Link className="btn btn-primary" to="/contacts">Contatos</Link>
+          </div>
+      </div>       
      </nav> 
      <Routes>
         <Route path='/' element={<Home />} />
