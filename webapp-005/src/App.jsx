@@ -12,7 +12,14 @@ import Error from "./Components/Error";
 export default function App() {
   return (
     <>
-     <nav className="container">
+    <div className="container-fluid- bg-dark text-white p-2 text-center">     
+      <div className="row">
+        <div className="col">
+          <h3>React Router App!</h3>
+        </div>
+      </div>
+    </div>
+     <nav className="container mt-3">
       <div className="row">
         <div className="col">
           <Link className="btn btn-primary me-3" to="/">Home</Link> 
