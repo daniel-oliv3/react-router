@@ -8,6 +8,7 @@ import Home from './Components/Home';
 import Services from './Components/Services';
 import Contacts from './Components/Contacts';
 import Error from "./Components/Error";
+import About from "./Components/About";
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
         <Route path='/' element={<Home />} />
         <Route path='/services' element={<Services />} />
         <Route path='/contacts' element={<Contacts />} />
+        <Route path='/about' element={<About />} />
         <Route path='/*' element={<Error />} />
      </Routes>
     </>
