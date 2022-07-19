@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,6 +21,7 @@ export default function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/contacts' element={<Contacts />} />
         <Route path='/about' element={<About />} />
+        <Route path='/outro' element={<Navigate to="/about" />} />
         <Route path='/*' element={<Error />} />
      </Routes>
      <Footer/>
