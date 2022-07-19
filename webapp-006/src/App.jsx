@@ -10,6 +10,7 @@ import Services from './Components/Services';
 import Contacts from './Components/Contacts';
 import Error from "./Components/Error";
 import About from "./Components/About";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path='/about' element={<About />} />
         <Route path='/*' element={<Error />} />
      </Routes>
+     <Footer/>
     </>
   );
 }
