@@ -56,6 +56,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ## 6 - NAVIGATE.
 - Ex: webapp-006
 
+## 7 - EXEMPLO PRÁTICO DE REDIRECIONAMENTO COM NAVIGATE.
+- Ex: webapp-007
 
 
 
