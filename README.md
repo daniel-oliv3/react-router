@@ -52,14 +52,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ## 5 - UTILIZAÇÃO DE LINKS EM COMPONENTES.
 - Ex: webapp-005
 
-
 ## 6 - NAVIGATE.
 - Ex: webapp-006
 
 ## 7 - EXEMPLO PRÁTICO DE REDIRECIONAMENTO COM NAVIGATE.
 - Ex: webapp-007
 
-
+## 8 - HOOK USENAVIGATE.
+- Ex: webapp-008
 
 
 
