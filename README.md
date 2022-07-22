@@ -61,6 +61,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ## 8 - HOOK USENAVIGATE.
 - Ex: webapp-008
 
+## 9 - HOOK USEPARAMS.
+- Ex: webapp-009
 
 
 
