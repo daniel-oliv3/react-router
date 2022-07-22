@@ -64,6 +64,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ## 9 - HOOK USEPARAMS.
 - Ex: webapp-009
 
+- http://localhost:3000/about/2
+
 
 
 
