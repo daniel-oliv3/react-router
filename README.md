@@ -71,6 +71,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 - Ex: webapp-010
 
 
+## 11 - OUTRA FORMA DE NESTED ROUTES.
+- Ex: webapp-011
+
 
 
 
