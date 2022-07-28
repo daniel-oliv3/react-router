@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 
 export default function Services() {
     return (
@@ -7,6 +7,13 @@ export default function Services() {
           <div className="row justify-content-center mt-3">
             <div className="col-8 card bg-light text-center p-3">
             <h1>Serviços</h1>
+
+
+            <Route>
+
+            </Route>
+
+
             <Link to={'/about'}>Sobre Nós</Link>
             </div>
           </div>
