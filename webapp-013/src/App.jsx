@@ -1,12 +1,28 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+//Componentes
+import Layout from './Components/Layout';
+
+import Home from './Components/Home';
+import Services from './Components/Services';
+import About from './Components/About';
+
+
+export default function App() {
   return (
     <>
-      <h1>Sapup3</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout/>}>
+            <Route path="home" element={<Home />} />
+            <Route path="services" element={<Services />} />
+            <Route path="about" element={<About />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
 
-export default App;
