@@ -14,8 +14,13 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <nav>
+        <nav className="d-flex justify-content-around bg-secondary p-3 mb-3">
+          <Link to="/">Empresa</Link>
+          <Link to="lojas">Lojas</Link>
 
+          <Link to="lojas/brasil">Brasil</Link>
+          <Link to="lojas/eua">EUA</Link>
+          <Link to="lojas/japao">Japão</Link>
         </nav>
 
         <Routes>
