@@ -23,6 +23,11 @@ export default function App() {
 
         <Routes>
           <Route path="/" element={<Empresa />} />
+          <Route path="lojas" element={<><Lojas/><Outlet /></>}>
+            <Route path="lisboa" element={<LojaLisboa />} />
+            <Route path="eua" element={<LojaEua />} />
+            <Route path="brazil" element={<LojaBrazil />} />
+          </Route>
         </Routes>
 
       </BrowserRouter>
