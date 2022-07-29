@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-export default function Brazil(){
+export default function LojaBrazil(){
     return (
         <>
             <h1>Brasil</h1>

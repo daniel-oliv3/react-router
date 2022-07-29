@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-export default function Eua(){
+export default function LojaEua(){
     return (
         <>
             <h1>Estados Unidos</h1>
