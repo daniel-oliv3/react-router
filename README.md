@@ -82,10 +82,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 - Ex: webapp-013
 
 
-## 15 V5 ESTRUTURA FUNDAMENTAL.
+## 15 - V5 ESTRUTURA FUNDAMENTAL.
 - Ex: webapp-014
 
-
+## React Router.
+**Adicionando o React Router Versão 5**
+```
+npm install react-router-dom@5
+```
 
 
 
