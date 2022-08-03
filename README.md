@@ -22,7 +22,7 @@ npx create-react-app webapp-001
 npm start
 ```
 
-## React Router.
+## React Router Versão 6.
 **Adicionando o React Router**
 ```
 npm install react-router-dom@6
