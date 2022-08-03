@@ -1,11 +1,15 @@
-import React from 'react';
+import { Outlet } from 'react-router-dom';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Layout() {
   return (
     <>
-     <h1>Layout</h1>
-    </>
+
+        <nav>
+            Navegação
+        </nav>
+
+        <Outlet />
+    </> 
   );
 }

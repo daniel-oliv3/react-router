@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Componentes
@@ -15,8 +14,8 @@ export default function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout/>}>
-            <Route path="home" element={<Home />} />
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
             <Route path="services" element={<Services />} />
             <Route path="about" element={<About />} />
           </Route>
