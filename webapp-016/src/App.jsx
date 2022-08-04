@@ -2,6 +2,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //Componentes
+import Nav from './Nav';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
@@ -11,14 +12,14 @@ export default function App() {
     <BrowserRouter>
       <h1>React Router V5</h1>
       
-      <nav>[Navegação]</nav>
+      <Nav />
 
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
 
-        <Route path="/contato">
+        <Route path="/contact">
           <Contact />
         </Route>
 
