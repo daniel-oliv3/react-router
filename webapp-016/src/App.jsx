@@ -15,13 +15,16 @@ export default function App() {
         <Route exact path="/">
           <Home />
         </Route>
-      </Switch>
 
-      <Switch>
+        <Route path="/contato">
+          <Contact />
+        </Route>
+
         <Route path="/about">
           <About />
         </Route>
       </Switch>
+
 
     </BrowserRouter>
   );
