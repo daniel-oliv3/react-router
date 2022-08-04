@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 //Componentes
 import Home from './Home';
 import About from './About';
+import Contact from './Contact';
 
 export default function App() {
   return (
