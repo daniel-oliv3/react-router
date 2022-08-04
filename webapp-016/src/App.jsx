@@ -10,7 +10,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <h1>React Router V5</h1>
-      <hr />
+      
+      <nav>[Navegação]</nav>
 
       <Switch>
         <Route exact path="/">
