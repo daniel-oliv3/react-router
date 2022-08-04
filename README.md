@@ -96,6 +96,9 @@ npm install react-router-dom@5
 ## 16 - V5 DEFAULT PATH E LINKS.
 - Ex: webapp-016
 
+```
+npm install react-router-dom@5
+```
 
 
 
