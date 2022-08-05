@@ -14,6 +14,7 @@ export default function App() {
       
       <Nav />
 
+      <hr />
       <Switch>
         <Route exact path="/">
           <Home />
@@ -23,11 +24,16 @@ export default function App() {
           <Contact />
         </Route>
 
-        <Route path="/about">
+        <Route path="/about/:id">
           <About />
+        </Route>
+
+        <Route path="*">
+          <h1>Erro: Página não existe!</h1>
         </Route>
       </Switch>
 
+      
 
     </BrowserRouter>
   );
