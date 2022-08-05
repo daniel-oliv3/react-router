@@ -13,3 +13,13 @@ export default function About() {
       </>
     );
   }
+
+
+
+
+  /*
+
+  http://localhost:3000/about/0
+  http://localhost:3000/about/1
+  
+  */

@@ -108,6 +108,15 @@ npm install react-router-dom@5
 ```
 
 
+## React Router.
+- Versão: 6 - https://reactrouter.com/docs/en/v6
+- Versão: 4/5 - https://v5.reactrouter.com/
+
+
+
+
+
+
 ##
 
 
